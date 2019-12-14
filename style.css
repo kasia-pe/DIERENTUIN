@@ -1,0 +1,159 @@
+body {
+	background: black;
+	font-family: 'Questrial', sans-serif;
+}
+
+h1 {
+	color: #002E2C;
+	text-shadow: -2px 1px 3px #004F4B;
+	margin: 3rem 0 10px 0;
+	border-bottom: 0.5px solid #A4243B;
+	margin-bottom: 1rem;
+	padding: 1rem 0;
+}
+p {
+	margin: 1rem 0;
+	text-align: justify;
+}
+
+.w3-container {
+	background: url("images/headerbg.jpg");
+	background-position: right 35% bottom 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 35rem;
+	text-align: justify;
+
+}
+
+.navbar {
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	background: rgba(25, 76, 49, 0.16);
+	box-shadow: -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+}
+.navbar a {
+	color: white;
+	margin: 0 5%;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: large;
+}
+
+.navbar a:hover {
+	border-bottom: 1px solid red;
+}
+
+#content {
+	text-align: center;
+	background: white;
+	margin: -100px auto auto auto;
+	width: 60%;
+	padding: 2%;
+	box-shadow: -webkit-box-shadow: -2px -5px 20px 0px rgba(0,0,0,1);
+				-moz-box-shadow: -2px -5px 20px 0px rgba(0,0,0,1);
+				box-shadow: -2px -5px 20px 0px rgba(0,0,0,1);
+}
+
+.gallery {
+	text-align: relative;
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+#gallery img {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+
+#dieren-verblijf table, th, tr, td{
+	border: 1px solid black;
+	padding: 3px 8px;
+	font-size: large;
+}
+
+th {
+	background-color: rgba(25, 76, 49, 0.16);
+}
+.verblijftb td{
+	width: 40%;
+}
+
+input[type=text] {
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid #A4243B;
+	width: 50%;
+}
+
+input[type=submit]{
+	background: #white;
+	border: 1px solid black;
+	margin-top: 15px;
+}
+
+input[type=submit]:hover {
+	background: #D2BBA0;
+}
+
+input[type=search]{
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid #A4243B;
+	width: 50%;
+}
+
+.echo {
+	margin: 20px;
+}
+
+.top {
+	float: right;
+	margin-right: -5rem;
+	position: sticky;
+	top: 50%;
+}
+.top a{
+	color: white;
+}
+.top a:hover {
+	color: red;
+}
+
+.footer-container {
+	color: white;
+	background: rgba(25, 76, 49, 0.16);
+	box-shadow: -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
+	height: 100%;
+	position: sticky;
+	display: block;
+	text-align: center;
+	margin: 7px 0 0 0;
+}
+
+.footer-container a {
+	text-decoration: none;
+	color: grey;
+}
+
+.footer-container a:hover {
+	color: red;
+}
+
+@media only screen and (max-width: 600px) {
+	navbar a {
+		display: none;
+	}
+	body {
+		background-color: lightblue;
+	}
+}
